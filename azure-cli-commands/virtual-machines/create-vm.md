@@ -9,7 +9,7 @@ Replace myResourceGroup with the name of the resource group you want to create, 
 
 * Run the following command to create a new virtual machine:
 
- az vm create \
+ az vm create\
 --resource-group myResourceGroup \
 --name myVM \
 --image UbuntuLTS \
