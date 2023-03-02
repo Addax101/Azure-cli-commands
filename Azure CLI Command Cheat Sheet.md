@@ -1,4 +1,9 @@
 Azure CLI Command Cheat Sheet
+This cheat sheet covers some of the most commonly used Azure CLI commands for managing virtual machines, web apps, MySQL databases, Azure Storage accounts, App Service plans, Cosmos DB accounts, and virtual networks. Use it as a quick reference guide to help you streamline your Azure management tasks.
+
+
+
+
 1. az login
 Description: Log in to an Azure account.
 Usage: az login
@@ -47,3 +52,35 @@ Usage: az mysql db create --resource-group <group-name> --server-name <server-na
 16. az mysql db list
 Description: List all MySQL databases in a server.
 Usage: az mysql db list --resource-group <group-name> --server-name <server-name>
+  Description: Create a new Azure Storage account.
+Usage: az storage account create --name <account-name> --resource-group <group-name> --location <location> --sku <sku-name>
+18. az storage container create
+Description: Create a new container in an Azure Storage account.
+Usage: az storage container create --name <container-name> --account-name <account-name> --account-key <account-key>
+19. az storage blob upload
+Description: Upload a file to a container in an Azure Storage account.
+Usage: az storage blob upload --account-name <account-name> --account-key <account-key> --container-name <container-name> --name <blob-name> --type <blob-type> --source <file-path>
+20. az appservice plan create
+Description: Create a new App Service plan in Azure.
+Usage: az appservice plan create --name <plan-name> --resource-group <group-name> --sku <sku-name> --is-linux <is-linux>
+21. az appservice plan list
+Description: List all App Service plans in a resource group.
+Usage: az appservice plan list --resource-group <group-name>
+22. az cosmosdb create
+Description: Create a new Cosmos DB account in Azure.
+Usage: az cosmosdb create --name <account-name> --resource-group <group-name> --kind <kind> --locations <locations>
+23. az cosmosdb database create
+Description: Create a new database in a Cosmos DB account.
+Usage: az cosmosdb database create --account-name <account-name> --name <db-name> --resource-group <group-name>
+24. az cosmosdb collection create
+Description: Create a new collection in a Cosmos DB database.
+Usage: az cosmosdb collection create --account-name <account-name> --database-name <db-name> --name <collection-name> --resource-group <group-name>
+25. az network vnet create
+Description: Create a new virtual network in Azure.
+Usage: az network vnet create --name <vnet-name> --resource-group <group-name> --address-prefixes <address-prefixes>
+  
+  
+  
+  
+  
+  
