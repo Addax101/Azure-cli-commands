@@ -9,4 +9,4 @@ Replace `myResourceGroup` with the name of the resource group where your virtual
 
 This command should return the power state of the virtual machine (e.g. "VM running").
 
-Congratulations! You have now started an existing virtual machine in Azure using the CL
+Congratulations! You have now started an existing virtual machine in Azure using the CLI 
