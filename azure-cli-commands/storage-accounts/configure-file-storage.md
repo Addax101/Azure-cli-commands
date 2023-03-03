@@ -10,5 +10,4 @@ az storage share create --account-name mystorageaccount --account-key myaccountk
 2. Run the following command to mount the file share on a Linux virtual machine: 
 ```
 sudo mount -t cifs //mystorageaccount.file.core.windows.net/myshare /mnt/myshare -o vers=3.0,username=mystorageaccount,password=myaccountkey,dir_mode=0777,file_mode=0777
-
 ```
