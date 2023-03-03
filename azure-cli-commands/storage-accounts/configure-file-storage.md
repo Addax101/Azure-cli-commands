@@ -19,3 +19,5 @@ df -h
 ```
 
 This command should show the mounted file share at the path you specified in step 2.
+
+> Congratulations! You have now configured file storage in your Azure storage account using the CLI.
