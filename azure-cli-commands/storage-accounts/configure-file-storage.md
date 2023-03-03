@@ -13,3 +13,7 @@ sudo mount -t cifs //mystorageaccount.file.core.windows.net/myshare /mnt/myshare
 ```
 * Replace `mystorageaccount` with the name of your storage account, `myaccountkey` with the access key for your storage account, `myshare` with the name of your file share, and `/mnt/myshare` with the path on your Linux virtual machine where you want to mount the file share.
 
+3. Wait for the file share to be mounted. You can use the following command to check the status of the file share: 
+```
+df -h
+```
