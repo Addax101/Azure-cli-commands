@@ -21,4 +21,8 @@ az storage blob upload --account-name mystorageaccount --account-key myaccountke
 az storage blob list --account-name mystorageaccount --account-key myaccountkey --container-name mycontainer --query '[].name'
 ```
 
+This command should return a list of the file names that were uploaded to your container
+
+> Congratulations! You have now configured blob storage in your Azure storage account using the CLI.
+
 
