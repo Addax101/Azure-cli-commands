@@ -16,6 +16,9 @@ az storage blob upload --account-name mystorageaccount --account-key myaccountke
 ```
 ** Replace `mystorageaccount` with the name of your storage account, `myaccountkey` with the access key for your storage account, `mycontainer` with the name of your container, `myfile` with the name you want to give your new file, and `/path/to/local/file` with the path to the local file you want to upload.
 
-* Wait for the file to be uploaded. You can use the following command to check the status of the upload: `az storage blob list --account-name mystorageaccount --account-key myaccountkey --container-name mycontainer --query '[].name'`
+* Wait for the file to be uploaded. You can use the following command to check the status of the upload: 
+```
+az storage blob list --account-name mystorageaccount --account-key myaccountkey --container-name mycontainer --query '[].name'
+```
 
 
