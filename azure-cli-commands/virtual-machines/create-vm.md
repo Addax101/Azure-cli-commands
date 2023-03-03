@@ -9,12 +9,14 @@ Replace myResourceGroup with the name of the resource group you want to create, 
 
 * Run the following command to create a new virtual machine:
 
+ ```
  az vm create\
 --resource-group myResourceGroup \
 --name myVM \
 --image UbuntuLTS \
 --admin-username azureuser \
 --generate-ssh-keys
+```
 
 Replace `myResourceGroup` with the name of the resource group you created in step 1, `myVM` with the name you want to give your virtual machine, and `UbuntuLTS` with the name of the operating system image you want to use. You can also replace `azureuser` with the username you want to use to connect to the virtual machine, and remove the `--generate-ssh-keys` parameter if you want to use your own SSH keys.
 
@@ -23,4 +25,4 @@ Replace `myResourceGroup` with the name of the resource group you created in ste
 
 This command should return the power state of the virtual machine (e.g. "VM running").
 
-Congratulations! You have now created a new virtual machine in Azure using the CLI.
+> Congratulations! You have now created a new virtual machine in Azure using the CLI.
