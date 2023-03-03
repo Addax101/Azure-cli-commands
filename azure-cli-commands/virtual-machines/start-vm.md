@@ -9,4 +9,4 @@ To start an existing virtual machine in Azure using the CLI, follow these steps:
 
 This command should return the power state of the virtual machine (e.g. "VM running").
 
-Congratulations! You have now started an existing virtual machine in Azure using the CLI 
+> Congratulations! You have now started an existing virtual machine in Azure using the CLI 
