@@ -11,7 +11,8 @@ Replace `mystorageaccount` with the name of your storage account, `myaccountkey`
 
 
 * Run the following command to upload a file to your new container: 
-```az storage blob upload --account-name mystorageaccount --account-key myaccountkey --container-name mycontainer --name myfile --type block --source /path/to/local/file
+```
+az storage blob upload --account-name mystorageaccount --account-key myaccountkey --container-name mycontainer --name myfile --type block --source /path/to/local/file
 ```
 ** Replace `mystorageaccount` with the name of your storage account, `myaccountkey` with the access key for your storage account, `mycontainer` with the name of your container, `myfile` with the name you want to give your new file, and `/path/to/local/file` with the path to the local file you want to upload.
 
