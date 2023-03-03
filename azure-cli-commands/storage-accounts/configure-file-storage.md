@@ -17,3 +17,5 @@ sudo mount -t cifs //mystorageaccount.file.core.windows.net/myshare /mnt/myshare
 ```
 df -h
 ```
+
+This command should show the mounted file share at the path you specified in step 2.
