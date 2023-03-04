@@ -52,7 +52,3 @@ Here's an overview of the documentation files available in each folder:
 
 If you find any errors or issues with the documentation, or if you would like to contribute additional examples or content, please feel free to submit a pull request or open an issue.
 
-## License
-
-This documentation is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt this documentation for any purpose, as long as you give appropriate credit and indicate if changes were made.
-
