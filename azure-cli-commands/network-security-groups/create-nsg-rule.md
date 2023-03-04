@@ -5,3 +5,5 @@ az network nsg rule create --resource-group myresourcegroup --nsg-name mynsg --n
 ```
 
 * Replace `myresourcegroup` with the name of the resource group your NSG is in, `mynsg` with the name of your NSG, `mynsg-rule` with the name you want to give your new rule, and customize the rule parameters as necessary.
+
+> Congratulations! You have now created a new rule in your NSG using the CLI.
