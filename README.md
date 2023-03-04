@@ -10,6 +10,7 @@ This repository contains documentation on common Azure CLI commands organized by
 - Web Apps
 - Storage Accounts
 - Network Security Groups
+- more to come 
 
 ## Getting Started
 
