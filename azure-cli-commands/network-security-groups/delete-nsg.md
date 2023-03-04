@@ -4,3 +4,6 @@ To delete a network security group (NSG) using the CLI, follow these steps:
 ```
 az network nsg delete --resource-group myresourcegroup --name mynsg
 ```
+* Replace `myresourcegroup` with the name of the resource group your NSG is in, and `mynsg` with the name of your NSG.
+
+2. Confirm that you want to delete the NSG by entering `y` when prompted.
