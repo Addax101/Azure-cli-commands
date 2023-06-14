@@ -2,7 +2,7 @@
 
 # Azure CLI Commands
 
-This repository contains documentation on common Azure CLI commands organized by resource type.
+This repository contains documentation on common *Azure CLI* commands organized by resource type.
 
 ## Resource Types
 
