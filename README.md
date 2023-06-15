@@ -6,7 +6,7 @@ This repository contains documentation on common *Azure CLI* commands organized 
 
 ## Resource Types
 
-- Virtual Machines
+- *Virtual Machines*
 - Web Apps
 - Storage Accounts
 - Network Security Groups
